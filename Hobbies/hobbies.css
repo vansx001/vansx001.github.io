@@ -32,7 +32,11 @@ ul.topnav li a:hover {
 ul.topnav li.icon {
   display: none;
 }
-.img-rounded {}
+.imgsize {
+  height: 300px;
+  width: auto;
+  border-radius: 25px;
+}
 h1 {
   font-family: Georgia;
 }
