@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  font-family: "Calibri",Arial, sans-serif;
+  font-family:"Calibri",Arial, sans-serif;
   font-size:2em;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -40,12 +40,10 @@ ul.topnav li.icon {
   border-radius: 25px;
 }
 h1 {
-  font-family:"Calibri",sans-serif;
   color:#228b22;
-  
 }
 h3 {
-  font-family:"Calibri",sans-serif;
+  font-weight: bold;
 }
 a:link {
   color: #4D8963;
