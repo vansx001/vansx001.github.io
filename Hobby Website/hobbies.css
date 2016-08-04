@@ -40,11 +40,12 @@ ul.topnav li.icon {
   border-radius: 25px;
 }
 h1 {
-  font-family: Georgia;
-  color:#333;
+  font-family:"Calibri",sans-serif;
+  color:#228b22;
+  
 }
 h3 {
-  font-family:"Franklin Gothic Medium",Calibri,sans-serif;
+  font-family:"Calibri",sans-serif;
 }
 a:link {
   color: #4D8963;
@@ -75,6 +76,5 @@ th {
   font-family:"Franklin Gothic Medium",Calibri,sans-serif; 
 }
 tr:hover {
-  background-color: #ccc
+  background-color: #ccc;
 }
-
