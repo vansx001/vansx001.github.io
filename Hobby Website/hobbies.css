@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
-  font-family: Arial;
-  font-size:15px;
+  font-family: "Calibri",Arial, sans-serif;
+  font-size:2em;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-right: 10px;
@@ -13,9 +13,11 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  text-align: center;
 }
 ul.topnav li {
-  float: left;
+  float: center;
+  display: inline-block;
 }
 ul.topnav li a {
   display: inline-block;
@@ -24,10 +26,10 @@ ul.topnav li a {
   padding: 14px 16px;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 1em;
 }
 ul.topnav li a:hover {
-  background-color: #228B22;
+  background-color: #228b22;
 }
 ul.topnav li.icon {
   display: none;
@@ -39,6 +41,10 @@ ul.topnav li.icon {
 }
 h1 {
   font-family: Georgia;
+  color:#333;
+}
+h3 {
+  font-family:"Franklin Gothic Medium",Calibri,sans-serif;
 }
 a:link {
   color: #4D8963;
@@ -57,14 +63,18 @@ h1 {
 }
 table, td {
   border: 1px solid black;
-  padding: 5px;
+  padding: 2px;
   text-align: left;
 }
 th {
-  background-color: #228B22;
+  background-color: #333;
+  color:#fff;
   border: 1px solid black;
   padding: 5px;
   text-align: left;
+  font-family:"Franklin Gothic Medium",Calibri,sans-serif; 
 }
-tr:hover {background-color: #ccc}
+tr:hover {
+  background-color: #ccc
+}
 
